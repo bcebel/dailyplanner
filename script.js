@@ -28,19 +28,19 @@ function hourTracker() {
     var blockHour = parseInt($(this).attr("id").split("hour")[1]);
     console.log(blockHour, currentHour, "these things");
     if (blockHour < currentHour) {
-      $(this).addClass("past");
-      $(this).removeClass("future");
+      $(this).addClass("future");
+      $(this).removeClass("past");
       $(this).removeClass("present");
     }
     else if (blockHour === currentHour) {
-      $(this).removeClass("past");
-      $(this).addClass("present");
       $(this).removeClass("future");
+      $(this).addClass("present");
+      $(this).removeClass("past");
     }
     else {
       $(this).removeClass("present");
-      $(this).removeClass("past");
-      $(this).addClass("future");
+      $(this).removeClass("future");
+      $(this).addClass("past");
     }
 
   })
