@@ -9,7 +9,7 @@ The formatting will change based on if the time is past, present or future.
 The items will remain there until they are updated.
 It uses your local storage to save the data.
 
-<img src="./assets/screenshot.png" alt="schedule photo" title="schedule photo">
+<img src="./assets/Screenshot.png" alt="schedule photo" title="schedule photo">
 
 
 
